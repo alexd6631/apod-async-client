@@ -1,0 +1,18 @@
+[package]
+name = "apod_async_client"
+version = "0.1.0"
+authors = ["Alexandre Delattre <alexd6631@gmail.com>"]
+edition = "2018"
+repository = "https://github.com/alexd6631/apod-async-client"
+description = "apod-async-client is a crate providing a simple client for NASA Astronomy Picture of the Day"
+license = "MIT"
+
+[dependencies]
+serde = { version= "1.0", features=["derive"] }
+thiserror = "1.0"
+reqwest = { version="0.10.0-alpha.1", features=["json"] }
+url = "2.1"
+
+[dev-dependencies]
+tokio="0.2.0-alpha.6"
+mockito="0.22.0"

@@ -1,5 +1,8 @@
 # apod-async-client #
 
+[![Apod async client crate](https://img.shields.io/crates/v/apod-async-client.svg)](https://crates.io/crates/apod-async-client)
+[![Apod async client documentation](https://docs.rs/apod_async_client/badge.svg)](https://docs.rs/apod_async_client)
+
 `apod-async-client` is a crate providing a simple client for NASA ["Astronomy
 Picture of the Day" API](https://api.nasa.gov/#browseAPI).
 
